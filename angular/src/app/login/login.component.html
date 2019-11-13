@@ -1,0 +1,23 @@
+<div class="grandparent">
+  <div class="parent">
+    <div class="login">
+
+      <h1>Welcome, Please Login</h1>
+
+      <mat-form-field appearance="outline">
+        <mat-icon matSuffix>email</mat-icon>
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="adam.smith@example.com" [(ngModel)]="email">
+      </mat-form-field>
+
+
+      <mat-form-field appearance="outline">
+        <mat-icon matSuffix>lock</mat-icon>
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="********" [(ngModel)]="password" type="password">
+      </mat-form-field>
+      <button mat-raised-button color="basic" (click)="register()">Register</button>
+      <button mat-raised-button color="primary" (click)="login()">Login</button>
+    </div>
+  </div>
+</div>

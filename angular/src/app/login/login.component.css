@@ -1,0 +1,32 @@
+.grandparent{
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.parent{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.login{
+  box-shadow: rgba(0, 0, 0, 0.23) 5px 3px 6px;
+  width: 450px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+mat-form-field{
+  width: 60%;
+  margin: 0 auto;
+}
+
+button{
+  width: 60%;
+  margin-bottom: 1em;
+}
